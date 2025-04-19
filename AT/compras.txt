@@ -1,0 +1,4 @@
+Arroz | 2 | 20.35
+Arroz | 2 | 20.5
+Farinha | 3 | 16.35
+Feijão | 1 | 39.45
