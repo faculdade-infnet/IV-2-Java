@@ -9,31 +9,45 @@ public class Pagamento {
     private FormaPagamento formaPagamento;
     private LocalDateTime dataPagamento;
     private boolean aprovado;
-    
+
     public Pagamento(double valor, FormaPagamento formaPagamento) {
         this.valor = valor;
         this.formaPagamento = formaPagamento;
     }
-    
+
     public boolean processar() {
         this.aprovado = true;
         this.dataPagamento = LocalDateTime.now();
         return aprovado;
     }
-    
-    public boolean isAprovado() {
+
+    public boolean isAprovado()
+    {
         return aprovado;
     }
-    
+
     public LocalDateTime getDataPagamento() {
+
         return dataPagamento;
     }
-    
+
     public double getValor() {
+
         return valor;
     }
-    
-    public FormaPagamento getFormaPagamento() {
+
+    public FormaPagamento getFormaPagamento()
+    {
         return formaPagamento;
     }
-} 
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj instanceof Pagamento) {
+            return this.valor == ((Pagamento) obj).valor &&
+                    this.formaPagamento.equals(((Pagamento) obj).formaPagamento);
+        } else {
+            return false;
+        }
+    }
+}
