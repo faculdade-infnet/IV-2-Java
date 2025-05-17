@@ -17,7 +17,7 @@ public class CalculadoraReembolsoTest {
     @Test
     @DisplayName("Exercício 01")
     public void testDeveRetornarValorOriginalComPercentualDeDesconto() {
-        double actual = service.calcular(200, 70);
+        double actual = service.calcular(200, 70, dummyPaciente);
 
         assertEquals(140.0, actual, 0.01);
     }
@@ -25,7 +25,7 @@ public class CalculadoraReembolsoTest {
     @Test
     @DisplayName("Exercício 02 - Consulta com valor 0")
     public void testDeveRetornarZeroQuandoConsultaZero() {
-        double actual = service.calcular(0, 70);
+        double actual = service.calcular(0, 70, dummyPaciente);
 
         assertEquals(0.0, actual, 0.01);
     }
@@ -33,7 +33,7 @@ public class CalculadoraReembolsoTest {
     @Test
     @DisplayName("Exercício 02 - Cobertura com valor 0")
     public void testDeveRetornarZeroQuandoCoberturaZero() {
-        double actual = service.calcular(200, 0);
+        double actual = service.calcular(200, 0, dummyPaciente);
 
         assertEquals(0.0, actual, 0.01);
     }
@@ -41,7 +41,7 @@ public class CalculadoraReembolsoTest {
     @Test
     @DisplayName("Exercício 02 - Cobertura com valor 100")
     public void testDeveRetornarValorInteiroQuandoCoberturaCem() {
-        double actual = service.calcular(200, 100);
+        double actual = service.calcular(200, 100, dummyPaciente);
 
         assertEquals(200.0, actual, 0.01);
     }
