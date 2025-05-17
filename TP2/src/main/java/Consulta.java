@@ -1,24 +1,27 @@
 public class Consulta {
-    private final Paciente paciente;
+    //    private final Paciente paciente;
     private final double valor;
-    private final double percentual;
+//    private final double percentual;
 
-    public Consulta(Paciente paciente, double valor, double percentual) {
-        this.paciente = paciente;
+    public Consulta(Paciente paciente, double valor, double percentualCobertura) {
+//        this.paciente = paciente;
         this.valor = valor;
-        this.percentual = percentual;
+//        this.percentual = percentualCobertura;
     }
 
-
-    public Paciente getPaciente() {
-        return paciente;
+    public Consulta(double valor) {
+        this.valor = valor;
     }
+
+//    public Paciente getPaciente() {
+//        return paciente;
+//    }
 
     public double getValor() {
         return valor;
     }
 
-    public double getPercentual() {
-        return percentual;
-    }
+//    public double getPercentualCobertura() {
+//        return percentual;
+//    }
 }

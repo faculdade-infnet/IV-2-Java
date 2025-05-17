@@ -1,3 +1,3 @@
 public interface Auditoria {
-    void registrarConsulta(Paciente paciente, double valor);
+    void registrarConsulta(Consulta consulta);
 }

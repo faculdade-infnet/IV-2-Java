@@ -8,9 +8,11 @@ public class AuditoriaSpyTest {
     public void testDeveChamarAuditoriaAoRegistrarConsulta() {
         AuditoriaSpy auditoriaSpy = new AuditoriaSpy();
         CalculadoraReembolso service = new CalculadoraReembolso(auditoriaSpy);
-        Paciente pacienteDummy = new Paciente();
+        Consulta consulta = new Consulta(200.0);
+        Paciente paciente = new Paciente();
+        PlanoSaudeBasico plano = new PlanoSaudeBasico();
 
-        service.calcular(100, 50, pacienteDummy);
+        service.calcular(consulta, paciente, plano);
 
         assertTrue(auditoriaSpy.foiChamado(), "Esperado que o método registrarConsulta tenha sido chamado.");
     }

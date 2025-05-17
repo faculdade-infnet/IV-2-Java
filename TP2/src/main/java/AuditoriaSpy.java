@@ -2,7 +2,7 @@ public class AuditoriaSpy implements Auditoria {
     private boolean foiChamado = false;
 
     @Override
-    public void registrarConsulta(Paciente paciente, double valor) {
+    public void registrarConsulta(Consulta consulta) {
         foiChamado = true;
     }
 

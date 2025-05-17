@@ -1,3 +1,3 @@
 public interface PlanoSaude {
-    public double getPercentualCobertura();
+    double getPercentualCobertura(double percentualCobertura);
 }

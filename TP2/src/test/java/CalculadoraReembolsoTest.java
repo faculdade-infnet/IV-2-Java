@@ -6,7 +6,6 @@ public class CalculadoraReembolsoTest {
     private CalculadoraReembolso service;
     private Paciente dummyPaciente;
 
-
     // Setup
     @BeforeEach
     public void setUp() {
