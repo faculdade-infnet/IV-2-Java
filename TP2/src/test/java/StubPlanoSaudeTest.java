@@ -1,16 +1,18 @@
+import org.CalculadoraReembolso;
+import org.PlanoSaudeStub;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class StubPlanoSaudeTest {
     private CalculadoraReembolso service;
-    private PlanoSaudeBasico planoStub;
+    private PlanoSaudeStub planoStub;
 
     // Setup
     @BeforeEach
     public void setUp() {
         service = new CalculadoraReembolso();
-        planoStub = new PlanoSaudeBasico();
+        planoStub = new PlanoSaudeStub();
     }
 
     @Test

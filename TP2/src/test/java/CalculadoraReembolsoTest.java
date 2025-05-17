@@ -1,3 +1,5 @@
+import org.CalculadoraReembolso;
+import org.Paciente;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -22,7 +24,7 @@ public class CalculadoraReembolsoTest {
     }
 
     @Test
-    @DisplayName("Exercício 02 - Consulta com valor 0")
+    @DisplayName("Exercício 02 - org.Consulta com valor 0")
     public void testDeveRetornarZeroQuandoConsultaZero() {
         double actual = service.calcular(0, 70, dummyPaciente);
 

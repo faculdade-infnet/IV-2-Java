@@ -1,3 +1,5 @@
+package org;
+
 public class AuditoriaSpy implements Auditoria {
     private boolean foiChamado = false;
 

@@ -1,3 +1,5 @@
+package org;
+
 public class CalculadoraReembolso {
 
 
@@ -16,7 +18,7 @@ public class CalculadoraReembolso {
         this.auditoria = auditoria;
     }
 
-    public double calcular(double valorConsulta, PlanoSaudeBasico plano) {
+    public double calcular(double valorConsulta, PlanoSaudeStub plano) {
         return valorConsulta * plano.getPercentualCobertura(70);
     }
 
@@ -28,7 +30,7 @@ public class CalculadoraReembolso {
         this.autorizador = autorizador;
     }
 
-    public double calcular(Consulta consulta, Paciente paciente, PlanoSaudeBasico plano) {
+    public double calcular(Consulta consulta, Paciente paciente, PlanoSaudeStub plano) {
         if (!autorizador.autorizar(consulta, paciente)) {
             try {
                 throw new ReembolsoNaoAutorizadoException("Reembolso não autorizado");
@@ -37,7 +39,7 @@ public class CalculadoraReembolso {
             }
         }
 
-        double reembolso = consulta.getValor() * plano.getPercentualCobertura(70);
+        double reembolso = consulta.getValor() * plano.getPercentualCobertura();
 
         // Define o valor de auditoria como TRUE, garantindo que ele foi chamado
         auditoria.registrarConsulta(consulta);

@@ -1,4 +1,4 @@
-import java.util.Objects;
+package org;
 
 public class Paciente {
     private String nome;
@@ -17,8 +17,8 @@ public class Paciente {
 //    @Override
 //    public boolean equals(Object o) {
 //        if (this == o) return true;
-//        if (!(o instanceof Paciente)) return false;
-//        Paciente paciente = (Paciente) o;
+//        if (!(o instanceof org.Paciente)) return false;
+//        org.Paciente paciente = (org.Paciente) o;
 //        return Objects.equals(nome, paciente.nome);
 //    }
 //

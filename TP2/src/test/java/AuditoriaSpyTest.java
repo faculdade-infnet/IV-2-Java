@@ -1,3 +1,4 @@
+import org.*;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -10,7 +11,7 @@ public class AuditoriaSpyTest {
         CalculadoraReembolso service = new CalculadoraReembolso(auditoriaSpy);
         Consulta consulta = new Consulta(200.0);
         Paciente paciente = new Paciente();
-        PlanoSaudeBasico plano = new PlanoSaudeBasico();
+        PlanoSaudeStub plano = new PlanoSaudeStub();
 
         service.calcular(consulta, paciente, plano);
 

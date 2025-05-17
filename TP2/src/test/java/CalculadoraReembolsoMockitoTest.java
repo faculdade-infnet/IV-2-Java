@@ -1,3 +1,4 @@
+import org.*;
 import org.junit.jupiter.api.*;
 
 import static org.junit.jupiter.api.Assertions.*;
@@ -8,7 +9,7 @@ public class CalculadoraReembolsoMockitoTest {
     private AutorizadorReembolso autorizadorMock;
     private Consulta consulta;
     private Paciente paciente;
-    private PlanoSaudeBasico plano;
+    private PlanoSaudeStub plano;
 
     // Setup
     @BeforeEach
@@ -17,7 +18,7 @@ public class CalculadoraReembolsoMockitoTest {
         autorizadorMock = mock(AutorizadorReembolso.class);
         consulta = new Consulta(200.0);
         paciente = new Paciente();
-        plano = new PlanoSaudeBasico();
+        plano = new PlanoSaudeStub();
     }
 
 
@@ -33,7 +34,7 @@ public class CalculadoraReembolsoMockitoTest {
         CalculadoraReembolso service = new CalculadoraReembolso(auditoriaMock, autorizadorMock);
 
         double reembolso = service.calcular(consulta, paciente, plano);
-        // O teste passa se a exceção ReembolsoNaoAutorizadoException for lançada
+        // O teste passa se a exceção org.ReembolsoNaoAutorizadoException for lançada
     }
 
     @Test
