@@ -4,30 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117539eb-3a0c-4eeb-a70c-a9ddf1805a68" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ExemploFluxoCompra.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/_serviceTeste/Calculadora.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/FormaPagamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/enums/StatusPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/CarrinhoCompras.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Endereco.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/ItemPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Pagamento.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Pedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/model/Produto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/ServicoPedido.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/TestFixtureTecnicas.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/model/PedidoTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/utils/builders/PedidoBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/utils/fixures/ClienteFixures.java" beforeDir="false" />
+    <list default="true" id="117539eb-3a0c-4eeb-a70c-a9ddf1805a68" name="Changes" comment="feat: Aula 07 - 15/05/25">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/gradlew" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Testes API/src/main/java/org/example/client/SimpleHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/src/main/java/org/example/client/SimpleHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestesUnitarios/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TestesUnitarios/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,11 +103,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748312802406</updated>
-      <workItem from="1748312803482" duration="312000" />
+      <workItem from="1748312803482" duration="756000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: Aula 07 - 15/05/25">
+      <option name="closed" value="true" />
+      <created>1748313285327</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1748313285327</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: Aula 07 - 15/05/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Aula 07 - 15/05/25" />
   </component>
 </project>
