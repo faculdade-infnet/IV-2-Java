@@ -1,2 +1,2 @@
-rootProject.name = "TestsApiT2"
+rootProject.name = "TestesAPI"
 

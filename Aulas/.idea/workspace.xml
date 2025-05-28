@@ -4,23 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="117539eb-3a0c-4eeb-a70c-a9ddf1805a68" name="Changes" comment="feat: Aula 07 - 15/05/25">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/settings.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Testes API/src/main/java/org/example/client/SimpleHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/src/main/java/org/example/client/SimpleHttpClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TestesUnitarios/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/TestesUnitarios/README.md" afterDir="false" />
+    <list default="true" id="117539eb-3a0c-4eeb-a70c-a9ddf1805a68" name="Changes" comment="feat: Aula 08 - 22/05/25">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestesAPI/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestesAPI/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestesAPI/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestesAPI/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestesAPI/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestesAPI/src/main/java/org/example/client/SimpleHttpClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestesAPI/src/main/java/org/example/client/SimpleHttpClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,42 +45,42 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "samuelhermany"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;samuelhermany&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "git@github.com:faculdade-infnet/IV-2-Java.git",
-    "accountId": "29b81118-d434-4067-8dd9-da9bc82d9587"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:faculdade-infnet/IV-2-Java.git&quot;,
+    &quot;accountId&quot;: &quot;29b81118-d434-4067-8dd9-da9bc82d9587&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2xeyOU5bYpQZ6KFgSk0I53ZXclY" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "F:/Downloads/Nova pasta",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/Downloads/Nova pasta&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -103,7 +96,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1748312802406</updated>
-      <workItem from="1748312803482" duration="756000" />
+      <workItem from="1748312803482" duration="887000" />
+      <workItem from="1748399421926" duration="11000" />
+      <workItem from="1748403173843" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Aula 07 - 15/05/25">
       <option name="closed" value="true" />
@@ -113,7 +108,15 @@
       <option name="project" value="LOCAL" />
       <updated>1748313285327</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: Aula 08 - 22/05/25">
+      <option name="closed" value="true" />
+      <created>1748313654133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1748313654133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Aula 07 - 15/05/25" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Aula 07 - 15/05/25" />
+    <MESSAGE value="feat: Aula 08 - 22/05/25" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Aula 08 - 22/05/25" />
   </component>
 </project>
