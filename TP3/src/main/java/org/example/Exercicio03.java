@@ -20,7 +20,6 @@ public class Exercicio03 {
 
             System.out.println("Status Code: " + respostaGet[1] + " " + respostaGet[2]);
         } catch (Exception e) {
-            //System.out.println("Status Code: " + respostaGet[0]);
             throw new RuntimeException((e));
         }
     }

@@ -28,7 +28,7 @@ public class HTTPClient {
         return new String[]{body, String.valueOf(statusCode), responseMessage};
     }
 
-    public static String post(String urlStr, Object body) throws URISyntaxException, IOException {
+    public static String[] post(String urlStr, Object body) throws URISyntaxException, IOException {
         HttpURLConnection conn = getConnection(urlStr, "POST");
 
         // Converte o objeto java para uma String JSON
@@ -39,6 +39,9 @@ public class HTTPClient {
             os.write(input);
         }
 
+        int statusCode = conn.getResponseCode();
+        String responseMessage = conn.getResponseMessage();
+
         int status = conn.getResponseCode();
         if (status != 200 && status != 201) {
             if (status >= 500 && status <= 599) {
@@ -47,7 +50,9 @@ public class HTTPClient {
             throw new RuntimeException("Erro na requisição POST. Código de resposta : " + status);
         }
 
-        return lerResposta(conn);
+        String responseBody = lerResposta(conn);
+
+        return new String[]{responseBody, String.valueOf(statusCode), responseMessage};
     }
 
     // Cria a conexão com API

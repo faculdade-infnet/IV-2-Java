@@ -21,7 +21,6 @@ public class Exercicio04 {
             System.out.println("Status Code: " + respostaGet[1]);
 
         } catch (Exception e) {
-            //System.out.println("Status Code: " + respostaGet[0]);
             throw new RuntimeException((e));
         }
     }
