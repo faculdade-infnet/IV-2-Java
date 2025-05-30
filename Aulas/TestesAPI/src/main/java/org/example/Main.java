@@ -3,7 +3,6 @@ package org.example;
 import com.google.gson.Gson;
 import org.example.client.SimpleHTTPClient;
 import org.example.dtos.AgePrediction;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
