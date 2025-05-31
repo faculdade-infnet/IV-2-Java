@@ -44,12 +44,11 @@ public class HTTPClient {
         int statusCode = conn.getResponseCode();
         String responseMessage = conn.getResponseMessage();
 
-        int status = conn.getResponseCode();
-        if (status != 200 && status != 201) {
-            if (status >= 500 && status <= 599) {
+        if (statusCode != 200 && statusCode != 201) {
+            if (statusCode >= 500 && statusCode <= 599) {
                 post(urlStr, body);
             }
-            throw new RuntimeException("Erro na requisição POST. Código de resposta : " + status);
+            throw new RuntimeException("Erro na requisição POST. Código de resposta : " + statusCode);
         }
 
         String responseBody = lerResposta(conn);
