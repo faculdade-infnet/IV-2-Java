@@ -85,13 +85,26 @@ public class HTTPClient {
         int statusCode = conn.getResponseCode();
         String responseMessage = conn.getResponseMessage();
         String body = null;
-        if (statusCode != 404 && statusCode != 204) {
+        if (statusCode != 403 && statusCode != 404 && statusCode != 204) {
             body = lerResposta(conn);
         }
 
         return new String[]{body, String.valueOf(statusCode), responseMessage};
     }
 
+    // Verificar Options
+    public static String[] options(String urlStr) throws IOException, URISyntaxException {
+        HttpURLConnection conn = getConnection(urlStr, "OPTIONS");
+
+        int statusCode = conn.getResponseCode();
+        String responseMessage = conn.getResponseMessage();
+
+        // Pega o valor do cabeçalho permitido
+        String metodosAllow = conn.getHeaderField("Allow");
+        conn.disconnect();
+
+        return new String[]{metodosAllow, String.valueOf(statusCode), responseMessage};
+    }
 
     // Cria a conexão com API
     private static HttpURLConnection getConnection(String urlStr, String requestMethod) throws URISyntaxException, IOException {
