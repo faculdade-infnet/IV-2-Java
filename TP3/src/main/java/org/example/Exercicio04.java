@@ -2,7 +2,6 @@ package org.example;
 
 import com.google.gson.Gson;
 import org.example.client.HTTPClient;
-import org.example.get.GetRequest;
 
 import java.io.IOException;
 import java.net.URISyntaxException;
