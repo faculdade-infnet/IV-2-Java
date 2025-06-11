@@ -8,9 +8,13 @@ import java.util.Map;
 
 public class Etapa1 {
     public static void main(String[] args) {
+        criarAplicacao().start(7000);
+    }
+
+    public static Javalin criarAplicacao() {
         Javalin app = Javalin.create(
                 javalinConfig -> javalinConfig.http.defaultContentType = "text/plain; charset=utf-8"
-        ).start(7000);
+        );
 
         // Etapa1 - item 1
         app.get("/hello", ctx -> {
@@ -44,5 +48,7 @@ public class Etapa1 {
                     """.formatted(nome);
             ctx.result(json);
         });
+
+        return app;
     }
 }
