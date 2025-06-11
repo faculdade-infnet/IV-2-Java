@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AT" />
         <module name="TP1" />
-        <module name="TP3" />
         <module name="TP2" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AT" target="23" />
+      <module name="TP3" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>

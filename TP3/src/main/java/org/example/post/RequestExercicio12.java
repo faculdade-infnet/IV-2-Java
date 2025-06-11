@@ -5,7 +5,5 @@ public record RequestExercicio12(
         String type,
         double price,
         Integer numberinstock
-//        String title,
-//        String author,
 ) {
 }
