@@ -5,6 +5,7 @@ import io.javalin.http.HttpStatus;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.UUID;
 
 public class GerenciamentoDeTarefas {
@@ -53,5 +54,10 @@ public class GerenciamentoDeTarefas {
 
             ctx.json(tarefa);
         });
+
+        app.get("/status", ctx -> ctx.json(Map.of(
+                "status", "ok",
+                "timestamp", java.time.Instant.now().toString()
+        )));
     }
 }

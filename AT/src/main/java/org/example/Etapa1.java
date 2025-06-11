@@ -7,10 +7,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
 public class Etapa1 {
-    public static void main(String[] args) {
-        criarAplicacao().start(7000);
-    }
-
     public static Javalin criarAplicacao() {
         Javalin app = Javalin.create(
                 javalinConfig -> javalinConfig.http.defaultContentType = "text/plain; charset=utf-8"
