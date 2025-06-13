@@ -1,15 +1,10 @@
 package org.example;
 
-
-import org.json.JSONObject;
-
 import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.URISyntaxException;
 import java.net.URL;
 import java.nio.charset.StandardCharsets;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public class Etapa3 {
     private static final String BASE_URL = "http://localhost:7000";
@@ -28,7 +23,7 @@ public class Etapa3 {
         //getTarefaPorId("76cedcee-13f4-4a3f-bb4a-ac07e5b280e2");
 
         // ETAPA3 - ITEM 4
-        getStatus();
+        //getStatus();
     }
 
     // Setup

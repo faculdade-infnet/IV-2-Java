@@ -1,13 +1,11 @@
 package org.example;
 
-
 import org.example.Tarefas.GerenciamentoDeTarefas;
 
-import static org.example.Etapa1.criarAplicacao;
+public class Main {
+    public static void main(String[] args) {
 
-public class Servidor {
-    public static void main(String[] args)
-    {
+        // Iniciar Servidor Etapa 3
         GerenciamentoDeTarefas.main(args);
     }
 }
