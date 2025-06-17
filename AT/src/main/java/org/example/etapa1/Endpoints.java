@@ -1,4 +1,4 @@
-package org.example;
+package org.example.etapa1;
 
 import io.javalin.Javalin;
 
@@ -6,18 +6,14 @@ import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.Map;
 
-public class Etapa1 {
-    public static Javalin criarAplicacao() {
-        Javalin app = Javalin.create(
-                javalinConfig -> javalinConfig.http.defaultContentType = "text/plain; charset=utf-8"
-        );
-
-        // Etapa1 - item 1
+public class Endpoints {
+    public static Javalin criarAplicacao(Javalin app) {
+        // Endpoints - item 1
         app.get("/hello", ctx -> {
             ctx.result("Hello, Javalin!");
         });
 
-        // Etapa1 - item 2
+        // Endpoints - item 2
         app.get("/status", ctx -> {
             var status = Map.of(
                     "status", "ok",
@@ -26,14 +22,14 @@ public class Etapa1 {
             ctx.json(status);
         });
 
-        // Etapa1 - item 3
+        // Endpoints - item 3
         app.post("/echo", ctx -> {
             String msg = ctx.body();
             Map body = ctx.bodyAsClass(Map.class);
             ctx.json(body);
         });
 
-        // Etapa1 - item 4
+        // Endpoints - item 4
         app.get("/saudacao/{nome}", ctx -> {
             ctx.contentType("application/json; charset=utf-8");
             String nome = ctx.pathParam("nome");

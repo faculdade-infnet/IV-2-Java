@@ -16,7 +16,7 @@ public class GerenciamentoDeTarefas {
                 javalinConfig -> javalinConfig.http.defaultContentType = "application/json; charset=utf-8"
         ).start(7000);
 
-        // Etapa1 - item 5
+        // Endpoints - item 5
         app.post("/tarefas", ctx -> {
             var body = ctx.bodyAsClass(Tarefa.class);
 
@@ -31,10 +31,10 @@ public class GerenciamentoDeTarefas {
             ctx.status(HttpStatus.CREATED).json(nova);
         });
 
-        // Etapa1 - item 6 - Buscar todos os itens
+        // Endpoints - item 6 - Buscar todos os itens
         app.get("/tarefas", ctx -> ctx.json(tarefas));
 
-        // Etapa1 - item 6 - buscar por ID
+        // Endpoints - item 6 - buscar por ID
         app.get("/tarefas/{id}", ctx -> {
             //UUID id = UUID.fromString(ctx.pathParam("id"));
             String idStr = ctx.pathParam("id");

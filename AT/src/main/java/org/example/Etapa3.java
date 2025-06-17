@@ -14,7 +14,7 @@ public class Etapa3 {
         HttpURLConnection conn = configuracoes();
 
         // ETAPA3 - ITEM 1
-        postNovaTarefa(conn,"Estudar Javalin2", "Criar API REST com Javalin");
+        // postNovaTarefa(conn,"Estudar Javalin2", "Criar API REST com Javalin");
 
         // ETAPA3 - ITEM 2
         //getAllItems(conn);
@@ -23,7 +23,7 @@ public class Etapa3 {
         //getTarefaPorId("76cedcee-13f4-4a3f-bb4a-ac07e5b280e2");
 
         // ETAPA3 - ITEM 4
-        //getStatus();
+        getStatus();
     }
 
     // Setup
